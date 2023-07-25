@@ -1,0 +1,149 @@
+@font-face {
+    font-family: boldFont;
+    src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: regularFont;
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+body{
+    margin:0;
+}
+.main{
+    background-color: #154c79;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f3e66;
+}
+
+/* for first modal to view */
+.modal{
+    position:fixed;
+    background-color: #fff;
+    display:flex;
+    height: 635px;
+    width: 880px;
+    border-radius: 25px;
+}
+.left{
+    margin-top: 80px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 19px;
+    padding-top: 10px;
+} 
+#update{
+    margin-top: 10px;
+    font-size: 2.5em;
+    font-family: boldFont;
+}
+.right{
+    margin-top: 20px;
+    margin-right: 23px;
+}
+.userText{
+    font-size: 0.95em;
+    font-family:regularFont;
+    margin-top: 40px;
+}
+.texted{
+    margin-top: 30px;
+    font-family: regularFont;
+    font-size: 0.9em;
+}
+.point{
+    display: flex;
+    margin-top: 15px;
+}
+.point div:nth-child(2){
+    padding-left: 10px;
+}
+.sign-up{
+    margin-top: 70px;
+    font-family: 'boldFont';
+    font-size: 11px;
+}
+.email_input{
+    margin-top: 5px;
+    margin-left: -5px;
+    padding-left: 30px;
+    display: block;
+    width: 323px;
+    height: 35px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+.verify {
+    position: relative;
+    left: 210px;
+    color: #F09F57;
+    display: none;
+}
+.Subscribe{
+    background-color: #154c79;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 355px;
+    height: 30px;
+    margin-left: -5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.Subscribe:hover{
+    background: linear-gradient(90deg,#F05786,#F09F57);
+}
+
+/* for success messgae modal */
+
+.modal2{
+    position: fixed;
+    display: flex;
+    background: #fff;
+    height: 450px;
+    width: 450px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+.tick{
+    padding-left:30px;
+    padding-top: 30px;
+}
+.thanks{
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family: boldFont;
+    font-size: 3em;
+}
+.message{
+    font-family: regularFont;
+    font-size: 0.95em;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+.successEmail{
+    font-family: boldFont;
+}
+.dismiss{
+    background-color: #154c79;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 300px;
+    height: 50px;
+    margin-left:65px;
+    margin-top: 30px;
+    font-family: boldFont;
+    cursor: pointer;
+}
+.dismiss:hover{
+    background: linear-gradient(90deg,#F05786,#F09F57);
+}
